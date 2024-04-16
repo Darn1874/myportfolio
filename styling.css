@@ -1,0 +1,420 @@
+#header{background-color: white;
+        padding: 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;}
+
+
+html {scroll-behavior: auto;}
+
+#navbar ul{justify-content: end;
+          text-align: center;
+           display: flex;
+           padding: 15px;
+          text-decoration: none;
+          list-style: none;}
+
+#navbar img{
+            display: none;
+}
+
+#navbar ul a{text-decoration: none;
+            display: flex;
+            margin: 6px;
+            padding: 15px;
+            text-align: center;
+           font-size: 33px;
+           font-weight: 200; }
+
+ 
+        
+#navbar ul a:hover{color: red;
+                   }
+#home {padding-top: 30px;
+    padding-left: 40px 0;
+      padding: 50px;
+      font-size: 33px;
+     font-weight: 200;}
+#home span{color: red;}
+
+#home button {padding: 10px;
+             font-size: 33px;
+             margin: 20px;
+            border-radius: 6px;}
+#home button:hover {background-color: #0056b3;}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white; 
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.cta-button:hover {
+    background-color: red; 
+}
+
+/* Optional: Add some margin to the button for spacing */
+.cta-button {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+#about{padding: 50px 0;
+      display: flex;
+      font-size: 30px;
+      font-weight: 500;}
+
+.row {display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;}
+
+.about-col-1 {flex-basis: 35%;}
+.about-col-1 img {border-radius: 15px;
+                 width: 100%;}
+
+.about-col-2 {flex-basis: 60%;
+              margin-top: 10px;}
+
+
+.about-col-2 p{font-size: 33px;}
+
+.tab-titles {display: flex;
+            margin: 20px 0 40px;
+            font-size: 44px;
+            font-weight: 700;
+            color: red;}
+
+.tab-titles:hover{color: black;}
+
+.tab-links {margin-right: 50px;
+            font-size: 15px;
+             cursor: pointer;
+             position: relative;}
+
+.tab-links::after{content: '';
+                  width: 0;
+                  height: 3px;
+                  background: #ff004f;
+                  position: absolute;
+                  left: 0;
+                  bottom: -8px;
+                  transition: 0.5s;}
+
+.tab-links.active-link ::after{
+      width: 50%;
+}
+
+.tab-contents ul li {
+      list-style: none;
+      margin: 10px 0;
+}
+
+.tab-contents {display: none;}
+.tab-contents span {color: red;
+                   font-size: 15px;}
+
+.tab-contents.active-tab {display: block;}
+
+#services {padding: 30px 0;}
+
+.services-list {display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                 grid-gap: 40px;
+                 margin-top: 50px;}
+
+.services-list div {background: #262626;
+                    padding: 30px;
+                    font-size: 13px;
+                    border-radius: 10px;
+                   color: white;
+                   transition: background 0,5s, transform 0.5s;}
+
+.services-list div img {color: white;}
+.services-list div h2 {font-size: 30px;
+                       font-weight: 500;
+                       margin-bottom: 15px;
+                   }
+
+.sub-title {text-align: center;
+            font-size: 33px;}
+
+.services-list div a {font-size: 12px;
+                      text-decoration: none;
+                      color: white;
+                      display: inline-block;
+                      margin-top: 20px;}
+
+.services-list div:hover {background-color: blue;
+                         transform: translateY(-10px);}
+
+#portfolio {padding: 50px 0 ;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  
+  #portfolio {
+      background-color: #f8f8f8; 
+      padding: 50px 0; 
+  }
+  
+  .container {
+      max-width: 1200px;
+      margin: 0 auto; 
+      padding: 0 20px; 
+  }
+  
+  .sub-title {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .work-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .work {
+      margin: 20px; 
+  }
+  
+  .work img {
+      max-width: 100%; 
+      height: auto;
+      display: block;
+  }
+     
+  .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      align-items: center;
+  }
+  
+  .btn:hover {
+      background-color: #0056b3; 
+      color: #fff;
+  }
+
+  .btn.btn2 {display: inline-block;
+              background: red;
+             margin-top: 20px;}
+  
+
+ 
+#Contacts {
+      background-color: #f2f2f2;
+      padding: 50px 0;
+  }
+  
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+  
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  /* Contact Left Styles */
+  .contact-left {
+      flex: 0 0 45%;
+      max-width: 45%;
+  }
+  
+  .sub-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  
+  .contact-left p {
+      margin-bottom: 10px;
+  }
+  
+  .contact-left p img {
+      vertical-align: middle;
+      margin-right: 10px;
+  }
+  
+  .social-icons img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      color: blue;
+  }
+  
+  /* Contact Right Styles */
+  .contact-right {
+      flex: 0 0 45%;
+      max-width: 45%;
+  }
+  
+  .contact-right form {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+
+  
+ button  {background-color: red;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+           margin: 2px 2px;}
+.contact-right button:hover{background-color: #0056b3;} 
+
+
+
+
+
+
+
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media-icons {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social-media-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+}
+
+.social-media-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #007bff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+      /* Header */
+
+     #navbar {display: none;}
+      #navbar ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      #navbar img{display: block;
+                  font-size: 20px;}
+      
+      #navbar ul li {
+          margin-bottom: 10px;
+      }
+      
+      /* Hero Section */
+      #hero div {
+          text-align: center;
+      }
+      
+      /* About Section */
+      .about-col-1 {
+          text-align: center;
+      }
+      
+      .about-col-2 {
+          margin-top: 20px;
+      }
+      
+      /* Services Section */
+      .services-list div {
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      
+      .services-list div img {
+          margin: 0 auto;
+      }
+      
+      /* Portfolio Section */
+      .work-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      
+      .work {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      
+      /* Contacts Section */
+      .contact-left,
+      .contact-right {
+          flex: 0 0 100%;
+          max-width: 100%;
+          text-align: center;
+      }
+      
+      .contact-left p,
+      .contact-right form {
+          margin-bottom: 20px;
+      }
+      
+      .social-icons {
+          margin-bottom: 20px;
+      }
+      
+      /* Copyright Section */
+      .copyright {
+          text-align: center;
+          margin-top: 20px;
+      }
+  }
+  
+        
+  
